@@ -1,5 +1,5 @@
 import express from 'express';
-import {createEmployee,getAllEmployees, getEmployeeById,deleteEmployee,updateEmployee} from '../Controller/employeecontroller.js'; // Adjust the path as necessary
+import {createEmployee,getAllEmployees, getEmployeeById,deleteEmployee,updateEmployee} from '../Controller/employeeController.js'; // Adjust the path as necessary
 const router = express.Router();
 
 router.post('/', createEmployee);
